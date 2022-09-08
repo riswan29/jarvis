@@ -84,30 +84,36 @@ def jadwal():
     hari = datetime.datetime.now()
     Hari = hari.strftime("%A")
 
-    senin = ['1.Kuliah kelas Komputer Grafik, 4 sks mulai jam 1 siang sampai 4 sore',
-             '2.kelas online paithon dikoding ',
-             '3.menambah fitur saya agar lebih bagus lagi',
-             '4.main game']
-    selasa =['1.kuliah kelas Keamanan komputer dan jaringan ,  3 sks mulai dari jam setengah 10 sampai jam 12 siang',
-             '2.kelas rekayasa perangkat lunak , 3 sks mulai dari jam 1 siang sampai jam setengah 4 sore',
-             '3.kelas online paithon dikoding',
-             '4.menambah fitur saya agar lebih bagus lagi',
-             '5.Main game']
-    rabu = ['1.kuliah kelas sistem oprasi , 3 sks mulai jam 1 siang sampai jam setengah 4 sore',
-            '2.kelas online paithon dikoding',
-            '3.menambah fitur saya agar lebih bagus lagi',
-            '4.Main game']
-    kamis = ['1.kuliah kelas sistem informasi , 3 sks mulai jam 10 pagi sampai jam 1 siang',
-             '2.Kelas online paithon dikoding',
-             '3.menambah fitur saya agar lebih bagus lagi',
-             '4.main game']
-    jumat = ['1.Kelas online paithon dikoding',
-             '2.menambah fitur saya agar lebih bagus lagi',
-             '3.main game']
-    sabtu = ['1.kuliah kelas kecerdasan buatan , 4 sks mulai jam 8 pagi sampai jam 12 siang',
-             '2.Kelas online paithon dikoding',
-             '3.menambah fitur saya agar lebih bagus lagi',
-             '4.main game']
+    senin = [   '1.Kuliah kelas Komputer Grafik, 4 sks mulai jam 1 siang sampai 4 sore',
+                '2.kelas online paithon dikoding ',
+                '3.menambah fitur saya agar lebih bagus lagi',
+                '4.main game'
+                ]
+    selasa =[   '1.kuliah kelas Keamanan komputer dan jaringan ,  3 sks mulai dari jam setengah 10 sampai jam 12 siang',
+                '2.kelas rekayasa perangkat lunak , 3 sks mulai dari jam 1 siang sampai jam setengah 4 sore',
+                '3.kelas online paithon dikoding',
+                '4.menambah fitur saya agar lebih bagus lagi',
+                '5.Main game'
+                ]
+    rabu = [    '1.kuliah kelas sistem oprasi , 3 sks mulai jam 1 siang sampai jam setengah 4 sore',
+                '2.kelas online paithon dikoding',
+                '3.menambah fitur saya agar lebih bagus lagi',
+                '4.Main game'
+                ]
+    kamis = [   '1.kuliah kelas sistem informasi , 3 sks mulai jam 10 pagi sampai jam 1 siang',
+                '2.Kelas online paithon dikoding',
+                '3.menambah fitur saya agar lebih bagus lagi',
+                '4.main game'
+                ]
+    jumat = [   '1.Kelas online paithon dikoding',
+                '2.menambah fitur saya agar lebih bagus lagi',
+                '3.main game'
+                ]
+    sabtu = [   '1.kuliah kelas kecerdasan buatan , 4 sks mulai jam 8 pagi sampai jam 12 siang',
+                '2.Kelas online paithon dikoding',
+                '3.menambah fitur saya agar lebih bagus lagi',
+                '4.main game'
+                ]
 
 
     if Hari == "Monday":
@@ -238,13 +244,3 @@ if __name__ == "__main__":
         
         elif "kelas" in query:
             speak("riswan kamu sudah sampai di kelas django paithon dan flask ")
-                
-                
-        elif "angel" in query:
-            
-            speak("enjel kamu terlalu polos atau gimana sih ?")
-                
-                
-                
-                
-                 
